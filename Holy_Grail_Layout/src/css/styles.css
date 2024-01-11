@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+.box {
+  border: 3px solid;
+  padding: 16px;
+}
+
+/* Cosmetic styles */
+.header.box {
+  border-color: hsl(45, 100%, 50%);
+  background-color: hsla(45, 100%, 50%, 0.2);
+}
+
+.nav.box {
+  border-color: hsl(170, 100%, 35%);
+  background-color: hsla(170, 100%, 35%, 0.2);
+}
+
+.main.box {
+  border-color: hsl(220, 100%, 50%);
+  background-color: hsla(220, 100%, 50%, 0.2);
+}
+
+.aside.box {
+  border-color: hsl(300, 100%, 45%);
+  background-color: hsla(300, 100%, 45%, 0.2);
+}
+
+.footer.box {
+  border-color: hsl(350, 100%, 60%);
+  background-color: hsla(350, 100%, 60%, 0.2);
+}
+
+body {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+}
+.middle__nav, .middle__aside {
+  flex: 1;
+}
+.middle__main {
+  flex: 3;
+}/*# sourceMappingURL=styles.css.map */
